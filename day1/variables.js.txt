@@ -1,0 +1,7 @@
+//variables 
+var name="vishu";
+let name2="priya";
+const c=10;
+console.log(name);
+console.log(name2);
+console.log(c);

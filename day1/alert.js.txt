@@ -1,0 +1,4 @@
+const prompt =require("prompt-sync")();
+let username=prompt("method1:Please enter your good name:");
+// alert("your good name is: " +username);
+console.log("Your good name is:" +username);

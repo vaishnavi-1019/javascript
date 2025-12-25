@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document text change by id</title>
+</head>
+<body>
+    <div id="change">
+        this is my text 
+    </div>
+    <div>
+        chala ja yaha see jaaaaa !!!!!!!!!!!
+    </div>
+
+    <script>
+        let username=prompt("method1:Please enter your good name here:");
+        document.getElementById("change").innerHTML="badal gaya yaar tuuuu   "+username;
+    </script>
+</body>
+</html>
