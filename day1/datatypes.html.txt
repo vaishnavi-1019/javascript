@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datatypes</title>
+</head>
+<body>
+    <h1>hello here the data types </h1>
+    <script>
+        //primitive -->numbers 
+        let n1=5;
+        let n2=3.4;
+        let n3="here is also something called NaN"/2;
+        let n4=Infinity;
+        console.log(n1);
+        console.log(n2);
+        console.log(n3);
+        console.log(n4);
+
+        //primitive -->strings 
+        let s1="hello";
+        let s2="behen"+"meri";
+        let s3=`can embed also ${s2}`;
+        console.log(s1);
+        console.log(s2);
+        console.log(s3);
+
+        //primitive -->boolean 
+        let isStudent=true;
+        let isemployee=false;
+        console.log(isStudent);
+        console.log(isemployee);
+
+        //primitive -->null
+        let length=null;
+        console.log(length);
+
+        //primitive -->undefined
+        let v;
+        console.log(v);
+
+
+        //now non primitive datatypes 
+        let arr=[1,2,3,4,];
+        console.log(arr);
+
+        //object 
+        let gfg={
+           location:"noida",
+           lan:"eng"
+        };
+        console.log(gfg);
+
+        //function 
+        function greet(name)
+        {
+            return ("hello "+name);
+        }
+        let username=prompt("1:please enter your name here :");
+        alert(greet(username));
+
+        //date 
+        let currentdate=new Date();
+        console.log(currentdate);
+
+        //pattern check 
+        let pattern=/hello/;
+        let result=pattern.test("Hello,world!");
+        console.log(result);
+
+        //
+    </script>
+</body>
+</html>
