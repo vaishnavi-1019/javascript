@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>loops </h1>
+    <script>
+        for(let i=1;i<=5;i++)
+    {
+        console.log(i);
+    }
+
+    for(let i=1;i<=10;i++)
+{
+    console.log(i*5);
+}
+
+let arr=[1,2,3,4];
+for(let i=0;i<arr.length;i++)
+{
+    console.log(arr[i]);
+}
+
+
+//while 
+let m=1;
+while(m<=5)
+{
+    console.log(m+10);
+    m++;
+}
+
+let brr=[1,2,3,4,5];
+let i=0;
+while(i<brr.length)
+{
+    console.log(brr[i]);
+    i++;
+}
+
+let j=1;
+do{
+    console.log(j);
+    j++;
+}while(j<=5);
+    </script>
+</body>
+</html>

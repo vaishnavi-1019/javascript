@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>operators</h1>
+    <script>
+        let a=3;
+        let b=2;
+        //airthmetic operators 
+        console.log(a+b);
+        console.log(a-b);
+        console.log(a*b);
+        console.log(a/b);
+        console.log(a%b);
+        console.log(a**b);
+        
+        //assignment operaters 
+        let c=0;
+        c+=a;
+        console.log(c);
+        let d=0;
+        d-=b;
+        console.log(d);
+        let e=1;
+        e*=a;
+        console.log(e);
+
+        //relational(comparision ) operator 
+        console.log(a==b);
+        console.log(a!=b);
+        console.log(a>b);
+        console.log(a<b);
+        console.log(a<=b);
+        console.log(a>=b);
+        console.log(a===b);
+
+
+        //logical operators 
+        console.log(a&&b);
+        console.log(a||b);
+    </script>
+</body>
+</html>

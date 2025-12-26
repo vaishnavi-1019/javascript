@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>conditions </h1>
+    <script>
+        let age=prompt("Hello!:Please Enter Your Good age :: ");
+        if(age<=18)
+    {
+        alert("NO!You can't vote");
+    }
+    else
+    {
+        alert("Yes!you can vote");
+    }
+
+    let temp=prompt("Hello:Please enter the temparature:: ");
+    if(temp>30)
+    {
+        alert("hey,it's pretty hot today");
+    }
+    else if(temp<=20)
+    {
+        document.write("it's warm");
+    }
+    else
+    {
+        document.write("it's cold ");
+    }
+
+    let day=prompt("Hello:Please enter the day name here:: ");
+    switch(day){
+        case "monday":
+            document.write("Go,work start");
+            break;
+
+        case "saturday":
+            document.write("chill.it's weekend");
+            break;
+
+        default:
+            document.write("It's just normal day");
+    }
+
+    </script>
+</body>
+</html>
